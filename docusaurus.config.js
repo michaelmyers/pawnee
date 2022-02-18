@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "michaelmyers", // Usually your GitHub org/user name.
-  projectName: "pawnee-website", // Usually your repo name.
+  projectName: "pawnee", // Usually your repo name.
   presets: [
     [
       "classic",
