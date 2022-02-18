@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpawnee_website=self.webpackChunkpawnee_website||[]).push([[175],{5207:function(e){e.exports=JSON.parse('{"allTagsPath":"/pawnee/blog/tags","slug":"/pawnee/blog/tags/facebook","name":"facebook","count":1,"permalink":"/pawnee/blog/tags/facebook"}')}}]);

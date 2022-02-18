@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpawnee_website=self.webpackChunkpawnee_website||[]).push([[732],{126:function(e){e.exports=JSON.parse('{"permalink":"/pawnee/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
