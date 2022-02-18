@@ -8,14 +8,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "City of Pawnee, Indiana",
   tagline: "When you're here, then you're home",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://xapp.ai",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
+  organizationName: "michaelmyers", // Usually your GitHub org/user name.
   projectName: "pawnee-website", // Usually your repo name.
-
   presets: [
     [
       "classic",
@@ -52,9 +51,9 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "quick-facts",
             position: "left",
-            label: "Tutorial",
+            label: "Quick Facts",
           },
           {
             type: "doc",
