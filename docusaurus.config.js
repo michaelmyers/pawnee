@@ -9,7 +9,7 @@ const config = {
   title: "City of Pawnee, Indiana",
   tagline: "When you're here, then you're home",
   url: "https://xapp.ai",
-  baseUrl: "/",
+  baseUrl: "/pawnee/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
