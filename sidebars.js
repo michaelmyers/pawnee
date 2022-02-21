@@ -22,12 +22,32 @@ const sidebars = {
     {
       type: "category",
       label: "Government",
-      items: ["city-hall", "parks-and-recreation"],
+      collapsed: false,
+      items: [
+        "city-hall",
+        "city-council",
+        "parks-and-recreation",
+        "information-technology",
+      ],
     },
     {
       type: "category",
       label: "About",
+      collapsed: false,
       items: ["quick-facts", "history"],
+    },
+  ],
+  parksSidebar: [
+    {
+      type: "category",
+      label: "Parks",
+      collapsed: false,
+      items: [
+        "parks/wamapokestone-park",
+        "parks/sullivan-street-pit",
+        "parks/circle-park",
+        "parks/smallest-park",
+      ],
     },
   ],
 };

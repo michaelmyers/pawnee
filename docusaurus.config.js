@@ -15,6 +15,7 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "michaelmyers", // Usually your GitHub org/user name.
   projectName: "pawnee", // Usually your repo name.
+  plugins: ["./plugins/inject-widget"],
   presets: [
     [
       "classic",
@@ -38,7 +39,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -49,6 +49,29 @@ const config = {
           src: "img/pawnee-seal.png",
         },
         items: [
+          {
+            type: "dropdown",
+            position: "left",
+            label: "Government",
+            items: [
+              {
+                label: "City Hall",
+                to: "/docs/city-hall",
+              },
+              {
+                label: "City Council",
+                to: "/docs/city-council",
+              },
+              {
+                label: "Parks & Recreation",
+                to: "/docs/parks-and-recreation",
+              },
+              {
+                label: "Information Technology",
+                to: "/docs/information-technology",
+              },
+            ],
+          },
           {
             type: "doc",
             docId: "quick-facts",
@@ -65,35 +88,11 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-        ],
+        links: [],
         copyright: `CC-BY-SA`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+      colorMode: {
+        disableSwitch: true,
       },
     }),
 };
