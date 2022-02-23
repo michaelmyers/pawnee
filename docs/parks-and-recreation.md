@@ -8,10 +8,10 @@ The Parks and Recreation Department of Pawnee oversees parks and recreational pu
 
 We are proud of our parks in Pawnee:
 
-- [Wamapokestone Park](/docs/parks/wamapokestone-park)
-- [Pawnee Commons](/docs/parks/sullivan-street-pit)
-- [Circle Park](/docs/parks/circle-park)
-- [Smallest Park](/docs/parks/smallest-park)
+- [Wamapokestone Park](/pawnee/docs/parks/wamapokestone-park)
+- [Pawnee Commons](/pawnee/docs/parks/sullivan-street-pit)
+- [Circle Park](/pawnee/docs/parks/circle-park)
+- [Smallest Park](/pawnee/docs/parks/smallest-park)
 
 ## Animal Control
 
