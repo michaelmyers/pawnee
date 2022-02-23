@@ -26,6 +26,7 @@ const sidebars = {
       items: [
         "city-hall",
         "city-council",
+        "city-maps",
         "parks-and-recreation",
         "information-technology",
       ],
