@@ -54,7 +54,7 @@ function buildDefaultTheme(opts: {
             left: "0px",
         },
         border: {
-            width: "1px",
+            width: "0px",
             color: accentColor,
             style: "solid",
             radius: "12px"
