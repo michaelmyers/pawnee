@@ -6,7 +6,7 @@ import { SearchContainer, SearchIcon, SearchWidgetConfig, SearchWidgetTheme, Wid
 const config: SearchWidgetConfig = {
     api: {
         key: "ea63c5bc-692b-4e70-a2de-77f5f621eed4",
-        url: "https://5pk07cqsz7.execute-api.us-east-1.amazonaws.com/prod/studio"
+        url: "https://eyj0n2o61g.execute-api.us-east-1.amazonaws.com/prod/studio"
     },
     suggestionsUrl: "https://api.xapp.ai/chat/suggestions"
 };
